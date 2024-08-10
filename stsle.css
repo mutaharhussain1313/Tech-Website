@@ -88,3 +88,37 @@ h3 {
     font-size: 35px;
     text-transform: capitalize;
 }
+
+/* for Smart phones */
+#mobile-h2{
+    padding-left: 20px;
+}
+.Mobiles{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    justify-content: space-around;
+}
+.Mobiles div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #b8e2f6;
+    border:1px solid gainsboro;
+    text-align: center;
+    margin: 10px 0;
+}
+.Mobiles div img{
+    height: 150 px;
+    width: 150px;
+    border-radius: 5px;
+    margin:10px;
+    background-color: transparent;
+}
+.Mobiles p{
+    padding: 2px;
+    font-size: small;
+}
+.p{
+    font-weight: bold;
+}
