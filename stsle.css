@@ -42,7 +42,7 @@ input{
 #shopping-cart {
     width: 50px;
     height: 40px;
-    
+
 }
 
 
@@ -73,7 +73,7 @@ h3 {
 .box2 {
     background-color: black;
     color: white;
-    margin-left: 500px;
+    margin-left: 510px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
