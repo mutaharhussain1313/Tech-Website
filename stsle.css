@@ -109,16 +109,30 @@ h3 {
     margin: 10px 0;
 }
 .Mobiles div img{
-    height: 150 px;
+    height: 100 px;
     width: 150px;
     border-radius: 5px;
     margin:10px;
     background-color: transparent;
 }
 .Mobiles p{
-    padding: 2px;
+    padding: 0px;
     font-size: small;
 }
 .p{
     font-weight: bold;
+}
+#laptops-h2{
+    margin-top: 60px;   
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.laptops{
+    display: grid;
+    grid-template-columns: 100% 100% 100% 100%;
+    justify-content: space-around;
+}
+.laptops div{
+     align-items: center;
+     background-color: #c8e6f6;
 }
